@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f564372e-36be-4d3c-a549-2ba8309c65cd")
 	(paper "A4")
+	(title_block
+		(title "TIP3055 Variable DC Power Supply (Redesign by Mbeche JP)")
+		(date "2025-04-21")
+		(rev "1.0")
+		(company "Halmstad University")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
