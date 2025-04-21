@@ -2222,12 +2222,6 @@
 		(uuid "2f338ec1-89cd-412b-8a18-8ac9ce998e76")
 	)
 	(junction
-		(at 146.05 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ab818df-5822-4dc2-8232-69a125cb4cdb")
-	)
-	(junction
 		(at 105.41 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2244,6 +2238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6106b19c-7c26-486b-98a1-6bdecf4e6183")
+	)
+	(junction
+		(at 146.05 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cdd0dff-ce92-482f-8c0b-b8392b8ab731")
 	)
 	(junction
 		(at 170.18 107.95)
@@ -2298,12 +2298,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c482ebea-7997-4d22-af54-819a4e605f6d")
-	)
-	(junction
-		(at 146.05 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c98f6a65-c77f-45ec-8413-944de65b98d9")
 	)
 	(junction
 		(at 133.35 73.66)
@@ -2475,16 +2469,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 170.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f12dbd2-475c-43f6-80ad-765360fea421")
-	)
-	(wire
-		(pts
 			(xy 109.22 86.36) (xy 109.22 87.63)
 		)
 		(stroke
@@ -2565,16 +2549,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638ed58e-30cd-4b82-a379-66042ed0494a")
-	)
-	(wire
-		(pts
 			(xy 146.05 109.22) (xy 146.05 115.57)
 		)
 		(stroke
@@ -2612,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "72946440-76dc-4c56-a086-3f1244931aa9")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b5f1ce-ef96-4656-880c-dfe70f8c7721")
 	)
 	(wire
 		(pts
@@ -2835,16 +2819,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 146.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddfd539d-4659-46db-9d96-61aaa17824c7")
-	)
-	(wire
-		(pts
 			(xy 146.05 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -2862,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "ef9ef8ea-b09c-467f-a752-f744587b9cc8")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79806f6-f348-48a1-b45b-6fd02d889b71")
 	)
 	(wire
 		(pts
@@ -2899,7 +2883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
 			(at 97.79 77.216 0)
 			(effects
 				(font
@@ -2963,7 +2947,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Green"
 			(at 111.76 85.0264 90)
 			(effects
 				(font
@@ -2972,7 +2956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 109.22 83.82 90)
 			(effects
 				(font
@@ -3051,7 +3035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -3329,7 +3313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -3399,7 +3383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -3469,7 +3453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -3615,7 +3599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
 			(at 170.18 115.57 0)
 			(effects
 				(font
@@ -3688,7 +3672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
 			(at 158.75 104.14 0)
 			(effects
 				(font
@@ -3913,7 +3897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 109.22 77.47 0)
 			(effects
 				(font
@@ -3983,7 +3967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -4053,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 181.61 115.57 0)
 			(effects
 				(font
@@ -4121,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 157.48 115.57 0)
 			(effects
 				(font
